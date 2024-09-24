@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+
+    <style>
+
+        /*body{
+            margin: 20px;
+            
+        }*/
+
+        .kutu {
+            width: 150px;
+            height: 150px;
+            /*float: left;*/
+            /*margin-right: 10px;*/
+
+        }
+
+        #kutu1 {
+            background-color: lightpink;
+            /*margin: 10px;*/
+            /*margin: 50px 100px 50px 20px; /*4 taraftan saat yönünde boşluk verebiliriz.*/
+            /*margin: 200px 50px; /*ilk değer üst ve alt 2. değer sol ve sağdan*/
+            
+        }
+
+        #kutu2 {
+            background-color: lightgreen;
+            margin: auto; /*float belirtilmesse sayfanın ortasında yer alır.*/
+            
+        }
+
+        #kutu3 {
+            background-color: lightblue;
+            
+        }
+
+        span{
+            margin: 50px; /*block değilse sadece yanlardan boşluk bırakır.*/
+            background-color: lightcoral;
+            display: inline-block; /*inline block kullanılırsa 4 taraftan boşluk bırakır.*/
+        }
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+
+
+
+    <div class="kutu" id="kutu1">Kutu 1</div>
+    <div class="kutu" id="kutu2">Kutu 2</div>
+    <div class="kutu" id="kutu3">Kutu 3</div>
+
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+
+
+
+
+</body>
+
+</html>
